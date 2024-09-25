@@ -1,0 +1,27 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+group07,com0.trellobackend,TrelloBackendApplicationTests,0,0,1,0,4,1,0,0,-1.0,0,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/test/java/com0/trellobackend/TrelloBackendApplicationTests.java,6
+group07,com0.trellobackend,TrelloBackendApplication,0,0,1,1,5,1,0,0,-1.0,0,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/TrelloBackendApplication.java,7
+group07,com0.trellobackend.service,BoardServiceTest,3,0,9,9,96,9,0,0,0.2222222222222222,0,5,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/test/java/com0/trellobackend/service/BoardServiceTest.java,22
+group07,com0.trellobackend.service,TaskServiceTest,4,0,19,19,279,19,0,0,0.10526315789473684,0,8,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/test/java/com0/trellobackend/service/TaskServiceTest.java,30
+group07,com0.trellobackend.service,UserServiceTest,4,0,20,16,225,20,0,0,0.1,0,6,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/test/java/com0/trellobackend/service/UserServiceTest.java,22
+group07,com0.trellobackend.service,WorkspaceServiceTest,3,0,10,10,102,11,0,0,0.2,0,5,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/test/java/com0/trellobackend/service/WorkspaceServiceTest.java,23
+group07,com0.trellobackend.service,UserService,3,0,8,8,80,18,0,0,0.0,2,5,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/service/UserService.java,16
+group07,com0.trellobackend.service,WorkspaceService,2,0,5,5,46,10,0,0,0.0,4,3,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/service/WorkspaceService.java,12
+group07,com0.trellobackend.service,TaskService,3,0,5,5,70,17,0,0,0.0,2,5,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/service/TaskService.java,19
+group07,com0.trellobackend.service,BoardService,3,0,5,5,41,8,0,0,0.0,2,5,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/service/BoardService.java,16
+group07,com0.trellobackend.dto,TaskDTO,5,0,1,1,21,3,0,0,0.0,0,1,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/dto/TaskDTO.java,16
+group07,com0.trellobackend.dto,WorkspaceDTO,4,0,2,2,23,5,0,0,1.0,0,1,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/dto/WorkspaceDTO.java,11
+group07,com0.trellobackend.dto,BoardDTO,2,0,1,1,11,2,0,0,0.0,1,1,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/dto/BoardDTO.java,8
+group07,com0.trellobackend.dto,UserDTO,5,0,2,2,19,3,0,0,1.0,0,1,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/dto/UserDTO.java,7
+group07,com0.trellobackend.repository,WorkspaceRepository,0,0,0,0,2,0,0,0,-1.0,6,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/repository/WorkspaceRepository.java,8
+group07,com0.trellobackend.repository,BoardRepository,0,0,1,0,3,1,0,0,-1.0,4,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/repository/BoardRepository.java,11
+group07,com0.trellobackend.repository,TaskRepository,0,0,1,0,3,1,0,0,-1.0,3,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/repository/TaskRepository.java,12
+group07,com0.trellobackend.repository,UserRepository,0,0,1,0,3,1,0,0,-1.0,6,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/repository/UserRepository.java,7
+group07,com0.trellobackend.controller,WorkspaceController,1,0,4,4,24,7,0,0,0.0,0,2,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/controller/WorkspaceController.java,10
+group07,com0.trellobackend.controller,TaskController,1,0,5,5,25,5,0,0,0.0,0,2,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/controller/TaskController.java,15
+group07,com0.trellobackend.controller,BoardController,1,0,5,5,35,8,0,0,0.0,0,3,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/controller/BoardController.java,14
+group07,com0.trellobackend.controller,UserController,1,0,8,8,77,17,0,0,0.0,0,3,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/controller/UserController.java,19
+group07,com0.trellobackend.model,User,7,2,2,2,19,2,0,0,0.0,8,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/model/User.java,11
+group07,com0.trellobackend.model,Task,6,0,3,3,17,3,0,0,0.6666666666666666,4,2,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/model/Task.java,12
+group07,com0.trellobackend.model,Board,4,0,2,2,12,2,0,0,1.0,6,1,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/model/Board.java,10
+group07,com0.trellobackend.model,Workspace,5,2,2,2,17,2,0,0,0.0,11,0,/Users/admin/Desktop/Group7/group07/../group07/trello-backend/src/main/java/com0/trellobackend/model/Workspace.java,12

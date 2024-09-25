@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/group07.iml" filepath="$PROJECT_DIR$/.idea/group07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trello-backend/trello-backend.iml" filepath="$PROJECT_DIR$/trello-backend/trello-backend.iml" />
+    </modules>
+  </component>
+</project>

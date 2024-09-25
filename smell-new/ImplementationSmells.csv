@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+group07,com0.trellobackend.service,TaskServiceTest,testAssignUserToTask_NonExistingTask,Magic Number,The method contains a magic number: 2,343
+group07,com0.trellobackend.service,UserServiceTest,testAddWorkspaceToUserById_ValidWorkspace,Magic Number,The method contains a magic number: 2,247
+group07,com0.trellobackend.service,WorkspaceServiceTest,testFindWorkSpacebyID_ExistingWorkspaceId,Magic Number,The method contains a magic number: 2,38
