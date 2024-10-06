@@ -1,0 +1,201 @@
+/* Sidebar */
+
+#sidebar {
+  width: 299px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 71px;
+  border-right: 1px solid lightgray;
+}
+
+#sidebar-content {
+  margin: 30px;
+}
+
+.change-workspace-button {
+  background-color: #ffffff;
+  border: 0px;
+  text-decoration: none;
+}
+
+.change-workspace-button:hover {
+  text-decoration: underline;
+}
+
+
+#your-boards {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.board-button {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #000;
+  border: 0px;
+  text-align: left;
+}
+
+#board-card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+#board-header-button {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+#board-header-button:hover {
+  text-decoration: underline;
+}
+
+#new-board-button {
+  float: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#new-board-button:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#board-header-text {
+  text-align: center;
+}
+
+#options-button{
+font-size: smaller;
+}
+
+#board-card-name:hover{
+ text-decoration: underline;
+}
+
+#btn-group-board {
+  height: 25px;
+  float: right;
+  margin-right: 30px;
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#btn-group-board:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Board.js component */
+
+#board-section {
+  padding: 50px;
+}
+
+#boards-header {
+  padding-top: 50px;
+}
+
+/* Dropdown Menu Items */
+
+ul > li > button:hover {
+  background-color: whitesmoke !important;
+}
+
+ul > li > button:active {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+/* Tasks */
+
+#task-cards {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 5fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding-top: 50px;
+  width: 900px;
+  margin: auto;
+}
+
+.task-text {
+  margin: auto;
+  text-align: center;
+  width: 100px;
+}
+
+#task-name {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#status-text {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#task-select {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  width: 150px;
+}
+
+#date-text {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#date-picker {
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 200px;
+}
+
+#new-user-button {
+  grid-column: 6 / 7;
+  grid-row: 1 / 2;
+  border: 1px lightgray solid;
+}
+
+#search-filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#search-text {
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#filter-container {
+  display: flex;
+}
+
+#filter-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#filter-select {
+  width: 200px;
+}

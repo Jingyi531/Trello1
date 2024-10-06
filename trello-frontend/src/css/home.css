@@ -1,0 +1,89 @@
+#home-container {
+  background-color: whitesmoke;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#workspaces-header {
+  margin-top: 20px;
+}
+
+#workspaces-header-text {
+  text-align: center;
+}
+
+#new-workspace-button {
+  float: right;
+  margin-right: 30px;
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#new-workspace-button:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#workspaces {
+  margin: 20px;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.workspace-card {
+  padding: 20px;
+  display: inline-block;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: calc(50% - 20px);
+  background-color: white;
+  margin: 10px;
+}
+
+#workspace-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#link {
+  color: black;
+  text-decoration: none;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
+
+#options-button {
+  border-width: 0px;
+  padding: 0px;
+  background-color: white;
+  border: lightgray 1px solid;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+#options-button:hover {
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul > li > button:hover {
+  background-color: whitesmoke !important;
+}
+
+ul > li > button:active {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+#workspace-card-desc {
+  margin-top: 10px;
+}

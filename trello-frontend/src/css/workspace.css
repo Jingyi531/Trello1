@@ -1,0 +1,65 @@
+/* Sidebar */
+
+#sidebar {
+  width: 299px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: 71px;
+  border-right: 1px solid lightgray;
+}
+
+#sidebar-content {
+  margin: 30px;
+}
+
+.change-workspace-button {
+  background-color: #ffffff;
+  border: 0px;
+  text-decoration: none;
+}
+
+.change-workspace-button:hover {
+  text-decoration: underline;
+}
+
+#your-boards {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.board-button {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #000;
+  border: 0px;
+  text-align: left;
+}
+
+#board-container {
+  margin-left: 300px;
+}
+
+/* Board.js component */
+
+#new-board-button {
+  background-color: white;
+  border: 1px solid lightgray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#new-board-button:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#board-section {
+  padding: 50px;
+}
+
+#board-header {
+  text-align: center;
+}

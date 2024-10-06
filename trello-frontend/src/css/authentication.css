@@ -1,0 +1,75 @@
+#authentication {
+  display: block;
+  text-align: center;
+}
+
+.signup-login {
+  width: 500px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  margin-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-right: 1px solid lightgray;
+}
+
+/* Remove right border from login page to get one dividing line */
+.signup-login + .signup-login {
+  border-right: none;
+}
+
+@media (max-width: 999px) {
+  .signup-login {
+    border-right: none;
+  }
+}
+
+.signup-login-header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.form-button {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#forgot-password, #go-back {
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#forgot-password:hover, #go-back:hover {
+  text-decoration: underline;
+}
+
+#forgot-password:focus, #go-back:focus {
+  border-width: 0;
+}
+
+#security-question {
+  padding-top: 10px;
+  border-top: 1px lightgray solid;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+/* password */
+.password-field {
+  position: relative;
+}
+
+.password-field button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+ 
+}
