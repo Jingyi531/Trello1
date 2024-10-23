@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./trello-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./trello-backend
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/trello?reconnect=true
+      SPRING_DATASOURCE_USERNAME: trello_user
+      SPRING_DATASOURCE_PASSWORD: trello_password
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: trello
+      MYSQL_USER: trello_user
+      MYSQL_PASSWORD: trello_password
+    ports:
+      - "3307:3306"
