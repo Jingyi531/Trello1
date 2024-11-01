@@ -51,15 +51,16 @@ function LogIn(props) {
             <h4 className="signup-login-header">Log in to Trello</h4>
             <div className="form-group" class="mb-3">
               <label htmlFor="email" class="form-label">Email address</label>
-              <input type="email" className="form-control" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+              <input type="email" className="form-control" id="login_email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
             </div>
             <div className="form-group" class="mb-3">
             
               <label htmlFor="password" class="form-label">Password</label>
               <div class="password-field">
-                <input type={showPassword ? 'text' : 'password'} className="form-control" id="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} required />
+                <input type={showPassword ? 'text' : 'password'} className="form-control" id="login_password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} required />
                 <button
                   type="button"
+                  id = "login_button"
                   className="btn btn-outline-secondary"
                   onClick={togglePasswordVisibility}
                 >
